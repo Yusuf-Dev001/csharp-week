@@ -1,0 +1,31 @@
+@ProductManagementApi_HostAddress = http://localhost:5284
+
+# GET {{ProductManagementApi_HostAddress}}/weatherforecast/
+# Accept: application/json
+
+###
+GET {{ProductManagementApi_HostAddress}}/api/product
+
+###
+GET {{ProductManagementApi_HostAddress}}/api/product/3
+
+###
+post {{ProductManagementApi_HostAddress}}/api/product
+Content-Type: application/json
+
+{
+    "name": "Bag",
+    "price": 850
+}
+
+###
+PUT {{ProductManagementApi_HostAddress}}/api/product/4
+Content-Type: application/json
+
+{
+    "name": "Gaming Laptop",
+    "price": 9500
+}
+
+###
+DELETE  {{ProductManagementApi_HostAddress}}/api/product/3

@@ -1,0 +1,20 @@
+[
+  {
+    "Title": "Dune",
+    "Author": "Frank Herbert",
+    "Year": 1965,
+    "IsAvailable": false
+  },
+  {
+    "Title": "The Hobbit",
+    "Author": "J.R.R Tolkien",
+    "Year": 1937,
+    "IsAvailable": false
+  },
+  {
+    "Title": "1984",
+    "Author": "George Orwell",
+    "Year": 1949,
+    "IsAvailable": true
+  }
+]

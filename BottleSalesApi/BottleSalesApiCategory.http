@@ -1,0 +1,32 @@
+@baseUrl = http://localhost:5084
+
+### Get all categories
+GET {{baseUrl}}/api/categories
+
+
+### Get category by ID
+GET {{baseUrl}}/api/categories/4
+
+
+### Create category
+POST {{baseUrl}}/api/categories
+Content-Type: application/json
+
+{
+    "name": "Category1",
+    "description": "Description of category"
+}
+
+
+### Update category
+PUT {{baseUrl}}/api/categories/3
+Content-Type: application/json
+
+{
+    "name": "Premium Sports Bottles",
+    "description": "Premium bottles for sports and outdoor activities"
+}
+
+//1  
+### Delete category
+DELETE {{baseUrl}}/api/categories/4

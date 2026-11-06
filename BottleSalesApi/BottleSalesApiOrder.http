@@ -1,0 +1,23 @@
+@baseUrl = http://localhost:5084
+
+GET {{baseUrl}}/api/orders/1
+
+###
+POST {{baseUrl}}/api/orders
+Content-Type: application/json
+
+{
+    "customerName": "John Smith",
+    "orderItems": [
+        {
+            "productId": 1,
+            "quantity": 2
+        },
+        {
+            "productId": 2,
+            "quantity": 3
+        }
+    ]
+}
+
+
